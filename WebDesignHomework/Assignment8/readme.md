@@ -4,7 +4,7 @@ Div (at least 2)
 
 Span (at least 2)
 - I used a span to help show what kind of meals are available on our website!
-
+- I added a red span onto my logo/name to make it pop out more!
 Audio (at least 1)
 
 Video (at least 1)
