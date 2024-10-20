@@ -10,6 +10,7 @@ Audio (at least 1)
 Video (at least 1)
 
 Iframe (at least 1)
+- I added a map attachment to the contact us page so people can find our physical locaiton (it is just the school since this place does not exist)
 
 Class (at least 2)
 - I have 2 classes for the homepage for each page of the site to use
