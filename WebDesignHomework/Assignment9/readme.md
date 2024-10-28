@@ -41,3 +41,5 @@
 ## Serve and Enjoy!
 ### Serve on a plate or in a bowl - slice the chicken against the grain and add on top!
 
+# NOTE
+Sorry I am so bad about meeting over zoom - but I still cannot get photos or images to upload correctly - maybe I can make time this week to meet again!
