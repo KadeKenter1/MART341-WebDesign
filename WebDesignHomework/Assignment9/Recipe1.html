@@ -52,6 +52,23 @@
         }
     </style>
 
+    <!---RECIPE INSTRUCTIONS START HERE-->
+
+<style>
+    .recipe-instruction {
+    border: 5px outset rgb(178, 178, 178);
+    background-color: rgb(178, 178, 178);    
+    text-align: center;
+    width: 500px;
+    width: 69%; /* or adjust as needed */
+    height:auto;
+    padding: 15px 30px 30px 30px;
+    margin: 17px 0; /* Adds space on the top and bottom */
+    box-sizing: border-box;
+    text-align: center;
+    }
+</style>
+<div class=".recipe-instruction">
 <div class="ingredients">
     <h1><i>Ingredients Needed</i></h1>
     <ul li font-size: 40px;>
@@ -70,24 +87,21 @@
 <head>
     <body>
         <style>
-            .recipe-instruction {
-            border: 5px outset rgb(178, 178, 178);
-            background-color: rgb(178, 178, 178);    
-            text-align: center;
-            width: 500px;
-            width: 69%; /* or adjust as needed */
-            height:auto;
-            padding: 15px 30px 30px 30px;
-            margin: 17px 0; /* Adds space on the top and bottom */
-            box-sizing: border-box;
-            text-align: center;
-            }
+           
+            .instructions-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5%;
+            justify-content: space-around;
 
+        }
         </style>
 
     <div class="recipe-instruction">
         <h1>Instructions</h1>
     </div>
+
+</div>
     </body>
 </head>
 </html>
