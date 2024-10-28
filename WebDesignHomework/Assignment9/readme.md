@@ -1,9 +1,7 @@
 # Recipe: High Protein Mac and Cheese
-
-## This is one of my favorite recipes to make!
+### This is one of my favorite recipes to make!
 
 # Ingredients Needed
-
 - 12 ounces elbow macaroni
 - 1 cup cottage cheese
 - 1 1/2 cups shredded cheddar cheese
