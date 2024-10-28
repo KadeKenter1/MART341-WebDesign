@@ -1,80 +1,84 @@
 <!DOCTYPE html>
-    <html>
-    <a style="float: right; padding: 10px" href="index.html">Home</a>
-    <a style="float: right; padding: 10px" href="productpage.html">Best Chefs Knife</a>
-    <a style="float: right; padding: 10px" href="contact.html">Contact</a>
-    <style>
-      body {background-color: lightgrey;}
-      h1 {color: rgb(0, 0, 0);}
-      h2 {color: rgb(64, 64, 64);}
-      p {color: rgb(116, 116, 116);}
-      .spacer {
-      display: block;
-      height: 20px; /* Adjust height as needed */
-      width: 100%; /* Ensures it spans full width if needed */
-  }
-
-  </style>
-
+<html lang="en">
 <head>
-  <body>
-    <h1 style="text-align: center;">Eat What <span style="color:red;">You</span> Want&#174;</h1>
-  </body>
-</head>
-
-<head>
-    <body>
-
-<style>
-    .HomepageDiv1 {
-      border: 5px outset rgb(178, 178, 178);
-      background-color: rgb(178, 178, 178);    
-      text-align: center;
-    }
-    </style>
-
-    
-    <div class="HomepageDiv1">
-      <h1>Our Recipes</h1>
-      <h2>Here are our amazing recipes!</h2>
-    </div>
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Homepage</title>
     <style>
+        body {
+            background-color: lightgrey;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        h1 {
+            color: black;
+            text-align: center;
+        }
+        h2 {
+            color: rgb(64, 64, 64);
+            text-align: center;
+        }
+        p {
+            color: rgb(116, 116, 116);
+            text-align: center;
+        }
+        .navbar {
+            text-align: right;
+            padding: 10px;
+        }
+        .navbar a {
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+        }
+        .HomepageDiv1, .HomepageDiv2, .RecipeTemplate {
+            border: 5px outset rgb(178, 178, 178);
+            background-color: rgb(178, 178, 178);
+            margin: 20px auto;
+            padding: 25px;
+            width: 80%; /* Responsive width */
+            box-sizing: border-box;
+            text-align: center;
+        }
         .HomepageDiv2 {
-          background-color: rgb(125, 125, 125);
-          border: 5px outset rgb(125, 125, 125);
+            background-color: rgb(125, 125, 125);
+            border-color: rgb(125, 125, 125);
         }
-        </style>
-        
-        <div class="HomepageDiv2">
-          <h1 style="text-align: center;">What Kind of Recipes do you Want?</h1>
-          <h2 style="text-align: center;"><b>VEGAN - VEGATERIAN - BULKING - SLIMMING</b></h2>
-        </div>
-    
-    <style>
         .RecipeTemplate {
-          background-color: rgb(255, 255, 255);
-          h1 {color: black;}
-          h2 {color: rgb(30, 30, 30);}
-          p {color: rgb(80, 80, 80);}
-          width: 33%;
-          height: auto;
-        padding:25px;
-        .spacer {
-            display: block;
-            height: 20px; /* Adjust height as needed */
-            width: 100%; /* Ensures it spans full width if needed */
+            background-color: rgb(255, 255, 255);
+            border-color: rgb(178, 178, 178);
+            color: black;
+            width: 33%;
+            margin: 10px auto; /* Centers each recipe block */
         }
-        }
-        </style>
+    </style>
+</head>
+<body>
 
-        <div class="RecipeTemplate">
-            <h2>High Protein Mac & Cheese</h2>
-            <p>This high protein Mac & Cheese is filling and perfect for making for large quantities</p>
-            <p>Click <a href="Recipe1.html"> Here</a> To See!</p>
-            <p><span style="color:black;font-weight:bold">- BULK -</span></p>
-        </div>
-    
-      </body>
-    </head>
-    </html>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="productpage.html">Best Chef's Knife</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <h1>Eat What <span style="color:red;">You</span> Want&#174;</h1>
+
+    <div class="HomepageDiv1">
+        <h1>Our Recipes</h1>
+        <h2>Here are our amazing recipes!</h2>
+    </div>
+
+    <div class="HomepageDiv2">
+        <h1>What Kind of Recipes do you Want?</h1>
+        <h2><b>VEGAN - VEGETARIAN - BULKING - SLIMMING</b></h2>
+    </div>
+
+    <div class="RecipeTemplate">
+        <h2>High Protein Mac & Cheese</h2>
+        <p>This high protein Mac & Cheese is filling and perfect for making large quantities.</p>
+        <p>Click <a href="Recipe1.html">here</a> to see!</p>
+        <p><span style="color:black; font-weight:bold;">- BULK -</span></p>
+    </div>
+
+</body>
+</html>
