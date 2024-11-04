@@ -1,4 +1,4 @@
-# Assignmetn 10
+# Assignment 10
 ## Kade Kenter
 
 # Files Worked on This Week
