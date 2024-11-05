@@ -63,6 +63,13 @@
             margin: 10px; /* Margin between recipe templates */
             padding: 20px; /* Padding inside the recipe template */
             box-sizing: border-box; /* Include padding and border in element's total width/height */
+            text-align: center;
+        }
+        .RecipeTemplate img {
+            max-width: 100%; /* Make the image fill the width of the parent container */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 8px; /* Optional: round the corners of the image */
+            margin-bottom: 15px; /* Space between image and text */
         }
     </style>
 </head>
@@ -95,7 +102,8 @@
 
     <div class="recipe-container">
         <div class="RecipeTemplate">
-            <img src="./images/MacNCheese.jpg" alt="mac and cheese">
+            <!-- Image added here -->
+            <img src="./images/MacNCheese.jpg" alt="High Protein Mac & Cheese">
             <h2>High Protein Mac & Cheese</h2>
             <p>This high protein Mac & Cheese is filling and perfect for making large quantities.</p>
             <p>Click <a href="Recipe1.html">here</a> to see!</p>
@@ -103,13 +111,14 @@
         </div>
 
         <div class="RecipeTemplate">
+            <!-- Image added here -->
+            <img src="./images/TeriyakiChicken.jpg" alt="Teriyaki Chicken">
             <h2>Teriyaki Chicken</h2>
             <p>One of my favorite recipes for all seasons. High in protein and good to mix with lots of other sides or additions. You can never have the same combination.</p>
             <p>Click <a href="Recipe2.html">here</a> to see!</p>
             <p><span style="color:black; font-weight:bold;">- BULK -</span></p>
         </div>
     </div>
-
 
 </body>
 </html>
