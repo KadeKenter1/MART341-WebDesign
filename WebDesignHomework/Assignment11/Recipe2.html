@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teriyaki Chicken</title>
+    <style>
+        body {
+            background-color: rgb(250, 250, 250);
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        h1 {
+            color: black;
+            text-align: center;
+        }
+        h2 {
+            color: rgb(82, 53, 53);
+            text-align: center;
+        }
+        p {
+            color: rgb(144, 107, 107);
+            text-align: center;
+        }
+        .navbar {
+            background-color: rgb(150, 150, 150);
+            text-align: right;
+            padding: 10px;
+        }
+        .navbar a {
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+        }
+        .recipepage, .ingredients, .recipe-instruction {
+            border: 5px outset rgb(178, 178, 178);
+            background-color: rgb(178, 178, 178);
+            text-align: center;
+            margin: 20px auto;
+            padding: 15px;
+            width: 80%; /* Responsive width */
+            box-sizing: border-box;
+        }
+        .ingredients ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .instructions-section {
+            display: flex;
+            flex-direction: column; /* Ensure a vertical layout */
+            align-items: center; /* Center content horizontally */
+            gap: 15px; /* Space between steps */
+        }
+        .instruction-step {
+            border: 1px solid rgb(116, 116, 116);
+            padding: 10px;
+            width: 100%; /* Make steps full width */
+            max-width: 600px; /* Set a maximum width */
+            box-sizing: border-box;
+        }
+        .logo {
+            text-align: center;
+            padding: 20px;
+            font-family: Courier, monospace; /* Change to Courier font */
+        }
+        .recipepage img {
+            width: 500px; /* Make the image fill the container */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 10px; /* Optional: rounded corners for the image */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="productpage.html">Best Chef's Knife</a>
+        <a href="contact.html">Contact</a>
+        <a href="recipe-home.html">Recipes</a>
+    </div>
+
+    <div class="logo">
+        <h1>Eat What <span style="color:red;">You</span> Want&#174;</h1>
+    </div>
+
+    <div class="recipepage">
+        <!-- Add an image for the recipe -->
+        <img src="./images/teriyaki1.jpg" alt="Teriyaki Chicken">
+        <h1>Teriyaki Chicken</h1>
+        <h2>A very versatile recipe for a simple dinner - even better for weekly lunches where you can add whatever additions you want</h2>
+    </div>
+
+    <div class="ingredients">
+        <h1><i>Ingredients Needed</i></h1>
+        <ul>
+            <li>1 1/4 lbs. boneless skinless chicken breasts, diced into 1-inch cubes</li>
+            <li>1 Tbsp olive oil</li>
+            <li>1/4 cup low-sodium soy sauce</li>
+            <li>1/4 cup water*</li>
+            <li>2 Tbsp honey</li>
+            <li>1 1/2 Tbsp packed light brown sugar</li>
+            <li>1 Tbsp rice vinegar</li>
+            <li>1/4 tsp toasted sesame oil</li>
+            <li>2 tsp peeled and minced fresh ginger</li>
+            <li>2 tsp peeled and minced fresh garlic (2 cloves)</li>
+            <li>2 tsp cornstarch</li>
+            <li>Sesame seeds and chopped green onions, for serving (optional)</li>
+        </ul>
+    </div>
+
+    <div class="recipe-instruction">
+        <h1>Instructions</h1>
+        <div class="instructions-section">
+            <div class="instruction-step">
+                <h2>Step 1</h2>
+                <h3>Prepare Your Workspace</h3>
+                <p>Heat olive oil in a 12-inch non-stick skillet over medium-high heat.</p>
+                <input type="checkbox">
+            </div>
+
+            <div class="instruction-step">
+                <h2>Step 2</h2>
+                <h3>Cook Chicken</h3>
+                <p>Add in chicken and let brown on bottom about 3 - 4 minutes then flip and continue to cook until center registers about 160 degrees, about 3 minutes longer.</p>
+                <input type="checkbox">
+            </div>
+
+            <div class="instruction-step">
+                <h2>Step 3</h2>
+                <h3>Prepare the Teriyaki Sauce</h3>
+                <p>While chicken is cooking, in a small mixing bowl (or liquid measuring cup) whisk together soy sauce, water, honey, brown sugar, rice vinegar, sesame oil, ginger, garlic, and cornstarch.</p>
+                <input type="checkbox">
+            </div>
+
+            <div class="instruction-step">
+                <h2>Step 4</h2>
+                <h3>Combine the Sauce and Chicken</h3>
+                <p>Stir the sauce in with the cooked chicken and continue to cook and toss until sauce has thickened, about 30 - 60 seconds longer.</p>
+                <input type="checkbox">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
