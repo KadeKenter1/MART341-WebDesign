@@ -24,35 +24,39 @@
         }
         .navbar {
             background-color: rgb(150, 150, 150);
-            text-align: right;
+            display: flex;
+            justify-content: flex-end;
             padding: 10px;
         }
         .navbar a {
-            padding: 10px;
+            padding: 10px 20px;
             text-decoration: none;
             color: black;
+            transition: background-color 0.3s;
+        }
+        .navbar a:hover {
+            background-color: rgb(120, 120, 120);
         }
         .logo {
             text-align: center;
             padding: 20px;
-            font-family: Courier, monospace; /* Set font to Courier */
         }
         .logo h1 {
             font-family: 'Courier', monospace;
-            font-size: 36pt; /* Adjust logo title size */
-            color: black; /* Keep the logo title color black */
+            font-size: 36pt;
+            color: black;
         }
         .logo h2 {
             font-family: 'Courier', monospace;
-            font-size: 20pt; /* Adjust tagline size */
-            color: rgb(82, 53, 53); /* Set the tagline color */
+            font-size: 20pt;
+            color: rgb(82, 53, 53);
         }
         .HomepageDiv1, .HomepageDiv2 {
             border: 5px outset rgb(178, 178, 178);
             background-color: rgb(178, 178, 178);
             margin: 20px auto;
             padding: 25px;
-            width: 80%; /* Responsive width */
+            width: 80%;
             box-sizing: border-box;
             text-align: center;
         }
@@ -61,26 +65,30 @@
             border-color: rgb(125, 125, 125);
         }
         .recipe-container {
-            display: flex; /* Use flexbox to align children in a row */
-            justify-content: space-around; /* Space items evenly */
-            flex-wrap: nowrap; /* Ensure items don't wrap to the next line */
-            gap: 20px; /* Space between the recipes */
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
             padding: 20px;
         }
         .RecipeTemplate {
             background-color: rgb(255, 255, 255);
             border: 5px outset rgb(178, 178, 178);
             color: black;
-            width: 30%; /* Adjust width as needed */
-            padding: 20px; /* Padding inside the recipe template */
-            box-sizing: border-box; /* Include padding and border in element's total width/height */
+            width: 30%;
+            padding: 20px;
+            box-sizing: border-box;
             text-align: center;
+            transition: transform 0.3s;
+        }
+        .RecipeTemplate:hover {
+            transform: translateY(-5px);
         }
         .RecipeTemplate img {
-            max-width: 100%; /* Make the image fill the width of the parent container */
-            height: auto; /* Maintain aspect ratio */
-            border-radius: 8px; /* Optional: round the corners of the image */
-            margin-bottom: 15px; /* Space between image and text */
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
         }
         button {
             display: block;
@@ -92,10 +100,10 @@
             border-radius: 5px;
             cursor: pointer;
             font-size: 16px;
-            transition: background-color 0.3s; /* Add transition for smooth hover effect */
+            transition: background-color 0.3s;
         }
         button:hover {
-            background-color: rgb(120, 80, 80); /* Change to a lighter color on hover */
+            background-color: rgb(120, 80, 80);
         }
     </style>
 </head>
@@ -105,12 +113,12 @@
         <a href="index.html">Home</a>
         <a href="productpage.html">Best Chef's Knife</a>
         <a href="contact.html">Contact</a>
+        <a href="recipe-home.html">Recipes</a>
     </div>
 
     <div class="logo">
         <h1>Eat What <span style="color:red;">You</span> Want&#174;</h1>
-        <!-- Logo title with new font size -->
-        <h2>A Company for Cooks and Cooking</h2> <!-- Tagline with new font size -->
+        <h2>A Company for Cooks and Cooking</h2>
     </div>
 
     <div class="HomepageDiv1">
