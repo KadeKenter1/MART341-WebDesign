@@ -92,9 +92,10 @@
             border-radius: 5px;
             cursor: pointer;
             font-size: 16px;
+            transition: background-color 0.3s; /* Add transition for smooth hover effect */
         }
         button:hover {
-            background-color: rgb(102, 73, 73);
+            background-color: rgb(120, 80, 80); /* Change to a lighter color on hover */
         }
     </style>
 </head>
@@ -120,26 +121,10 @@
     <div class="HomepageDiv2">
         <h1>What Kind of Recipes do You Want?</h1>
         <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; font-size: 100px;">
-            <button onclick="window.location.href='vegan-hp.html'" 
-                style="padding: 10px 20px; background-color: rgb(82, 53, 53); color: white; border: none; border-radius: 5px; cursor: pointer;"
-                onmouseover="this.style.backgroundColor='rgb(120, 80, 80)'" onmouseout="this.style.backgroundColor='rgb(82, 53, 53)'">
-                VEGAN
-            </button>
-            <button onclick="window.location.href='vegetarian-hp.html'" 
-                style="padding: 10px 20px; background-color: rgb(82, 53, 53); color: white; border: none; border-radius: 5px; cursor: pointer;"
-                onmouseover="this.style.backgroundColor='rgb(120, 80, 80)'" onmouseout="this.style.backgroundColor='rgb(82, 53, 53)'">
-                VEGETARIAN
-            </button>
-            <button onclick="window.location.href='bulk-hp.html'" 
-                style="padding: 10px 20px; background-color: rgb(82, 53, 53); color: white; border: none; border-radius: 5px; cursor: pointer;"
-                onmouseover="this.style.backgroundColor='rgb(120, 80, 80)'" onmouseout="this.style.backgroundColor='rgb(82, 53, 53)'">
-                BULK
-            </button>
-            <button onclick="window.location.href='slim-hp.html'" 
-                style="padding: 10px 20px; background-color: rgb(82, 53, 53); color: white; border: none; border-radius: 5px; cursor: pointer;"
-                onmouseover="this.style.backgroundColor='rgb(120, 80, 80)'" onmouseout="this.style.backgroundColor='rgb(82, 53, 53)'">
-                SLIM
-            </button>
+            <button onclick="window.location.href='vegan-hp.html'">VEGAN</button>
+            <button onclick="window.location.href='vegetarian-hp.html'">VEGETARIAN</button>
+            <button onclick="window.location.href='bulk-hp.html'">BULK</button>
+            <button onclick="window.location.href='slim-hp.html'">SLIM</button>
         </div>
     </div>
     
@@ -161,8 +146,8 @@
         </div>
 
         <div class="RecipeTemplate">
-            <img src="./images/vegetatianpasta.jpg" alt="vegetatian Pasta">
-            <h2>Vegetatian Pasta</h2>
+            <img src="./images/vegetatianpasta.jpg" alt="Vegetarian Pasta">
+            <h2>Vegetarian Pasta</h2>
             <p>A quick and easy vegetarian recipe perfect for any weeknight dinner.</p>
             <button onclick="window.location.href='recipe3.html'">Go to Recipe</button>
             <p><span style="color:black; font-weight:bold;">- VEGETARIAN -</span></p>
