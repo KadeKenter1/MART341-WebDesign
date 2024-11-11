@@ -32,9 +32,13 @@
             text-decoration: none;
             color: black;
         }
+        .HomepageDiv2 {
+            background-color: rgb(125, 125, 125);
+            border-color: rgb(125, 125, 125);
         .logo {
             text-align: center;
             padding: 20px;
+        }
         }
         .logo h1 {
             font-family: 'Courier', monospace;
@@ -75,16 +79,14 @@
     
     <p>We are focused on giving you the best cooking advice to make you feel happy and healthy while enjoying everything you eat!</p>
 
-    <div class="centered-section">
-        <h1>Types of Recipes We Have</h1>
-        <ul>
-            <li>Vegan (<abbr title="Vegan">V</abbr>)</li>
-            <li>Vegetarian (<abbr title="Vegetarian">Veg</abbr>)</li>
-            <li>Gluten-Free (<abbr title="Gluten-Free">GF</abbr>)</li>
-            <li>Bulking (<abbr title="Bulking">BLK</abbr>)</li>
-            <li>Slimming (<abbr title="Slimming">SLM</abbr>)</li>
-            <li><b>and more!</b></li>
-        </ul>
+    <div class="HomepageDiv2">
+        <h1>What Kind of Recipes do You Want?</h1>
+        <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; font-size: 100px;">
+            <button onclick="window.location.href='vegan-hp.html'">VEGAN</button>
+            <button onclick="window.location.href='vegetarian-hp.html'">VEGETARIAN</button>
+            <button onclick="window.location.href='bulk-hp.html'">BULK</button>
+            <button onclick="window.location.href='slim-hp.html'">SLIM</button>
+        </div>
     </div>
 
     <h1><i>What Makes Us Different?</i></h1>
