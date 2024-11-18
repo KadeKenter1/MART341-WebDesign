@@ -70,11 +70,9 @@
         }
         .button-container {
             display: flex;
-            justify-content: center;
-            gap: 15px;
+            justify-content: space-between; /* Space the buttons evenly */
+            gap: 10px;
             flex-wrap: wrap;
-            font-size: 18px; /* Adjusted font size for buttons */
-            margin: 0 auto; /* Center the container */
         }
         .button-container button {
             background-color: rgb(82, 53, 53);
@@ -85,6 +83,7 @@
             cursor: pointer;
             font-size: 18px;
             transition: background-color 0.3s, border-color 0.3s;
+            width: 150px; /* Fixed width for consistency */
         }
         .button-container button:hover {
             background-color: rgb(120, 80, 80);
