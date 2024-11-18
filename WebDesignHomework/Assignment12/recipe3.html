@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Vegetarian Pasta Recipe</title>
+    <style>
+        body {
+            background-color: rgb(250, 250, 250);
+            font-family: 'Gloria Hallelujah', cursive, Arial, sans-serif;
+            margin: 0;
+        }
+        h1, h2 {
+            color: black;
+            text-align: center;
+        }
+        p {
+            color: rgb(144, 107, 107);
+            text-align: center;
+        }
+        .navbar {
+            background-color: rgb(82, 53, 53);
+            display: flex;
+            justify-content: flex-end;
+            padding: 10px;
+        }
+        .navbar a {
+            padding: 10px 20px;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            transition: background-color 0.3s;
+        }
+        .navbar a:hover {
+            background-color: rgb(120, 120, 120);
+        }
+        .logo {
+            text-align: center;
+            padding: 20px;
+        }
+        .logo h1 {
+            font-family: 'Courier', monospace;
+            font-size: 36pt;
+            color: black;
+        }
+        .recipe-page, .ingredients, .recipe-instruction {
+            border: 5px outset rgb(178, 178, 178);
+            background-color: rgb(178, 178, 178);
+            margin: 20px auto;
+            padding: 15px;
+            width: 80%;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .recipe-page img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 10px;
+            margin: 15px auto;
+        }
+        .ingredients ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .instructions-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+        .instruction-step {
+            border: 1px solid rgb(116, 116, 116);
+            padding: 15px;
+            width: 100%;
+            max-width: 600px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .instruction-step:hover {
+            transform: translateY(-5px);
+        }
+        .instruction-step input[type="checkbox"] {
+            transform: scale(1.2);
+            margin-top: 10px;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="starterknife.html">Best Chef's Knife</a>
+        <a href="contact.html">Contact</a>
+        <a href="recipe-home.html">Recipes</a>
+    </div>
+
+    <div class="logo">
+        <h1>Eat What <span style="color:red;">You</span> Want&#174;</h1>
+    </div>
+
+    <div class="recipe-page">
+        <img src="./images/vegetatianpasta.jpg" alt="Simple Vegetarian Pasta">
+        <h1>Simple Vegetarian Pasta</h1>
+        <h2>A quick and easy vegetarian recipe perfect for any weeknight dinner.</h2>
+    </div>
+
+    <div class="ingredients">
+        <h1 style="letter-spacing: 5px;"><i>Ingredients Needed</i></h1>
+        <ul>
+            <li>200g spaghetti</li>
+            <li>2 tbsp olive oil</li>
+            <li>3 cloves garlic, minced</li>
+            <li>1 cup cherry tomatoes, halved</li>
+            <li>1/4 cup fresh basil leaves</li>
+            <li>Salt and pepper to taste</li>
+            <li>Grated Parmesan cheese (optional)</li>
+        </ul>
+    </div>
+
+    <div class="recipe-instruction">
+        <h1 style="letter-spacing: 5px;">Instructions</h1>
+        <div class="instructions-section">
+            <div class="instruction-step">
+                <h2>Step 1</h2>
+                <h3>Cook the Spaghetti</h3>
+                <p>Boil the spaghetti according to the package instructions. Drain and set aside.</p>
+                <input type="checkbox">
+            </div>
+
+            <div class="instruction-step">
+                <h2>Step 2</h2>
+                <h3>Sauté the Garlic</h3>
+                <p>Heat olive oil in a pan over medium heat. Add minced garlic and sauté until fragrant.</p>
+                <input type="checkbox">
+            </div>
+
+            <div class="instruction-step">
+                <h2>Step 3</h2>
+                <h3>Add the Tomatoes</h3>
+                <p>Add cherry tomatoes to the pan and cook for 2-3 minutes.</p>
+                <input type="checkbox">
+            </div>
+
+            <div class="instruction-step">
+                <h2>Step 4</h2>
+                <h3>Combine Spaghetti</h3>
+                <p>Add the cooked spaghetti to the pan and toss to coat evenly. Season with salt and pepper.</p>
+                <input type="checkbox">
+            </div>
+
+            <div class="instruction-step">
+                <h2>Step 5</h2>
+                <h3>Serve</h3>
+                <p>Garnish with fresh basil leaves and grated Parmesan cheese if desired. Serve hot!</p>
+                <input type="checkbox">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
