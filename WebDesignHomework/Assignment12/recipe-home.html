@@ -67,16 +67,16 @@
         }
         .recipe-container {
             display: flex;
-            justify-content: space-around;
             flex-wrap: wrap;
             gap: 20px;
             padding: 20px;
+            justify-content: space-between;
         }
         .RecipeTemplate {
             background-color: rgb(255, 255, 255);
             border: 5px outset rgb(178, 178, 178);
             color: black;
-            width: 30%;
+            flex-basis: calc(33% - 20px); /* Adjust width for three items per row with spacing */
             padding: 20px;
             box-sizing: border-box;
             text-align: center;
@@ -162,7 +162,7 @@
             <p><span style="color:black; font-weight:bold;">- VEGETARIAN -</span></p>
         </div>
 
-        <div class="RecipeTemplate"></div>
+        <div class="RecipeTemplate">
             <img src="./images/veganchickpeacurry.jpg" alt="Vegan Chickpea Curry">
             <h2>Vegan Chickpea Curry</h2>
             <p>A hearty and flavorful vegan dish that's perfect for any dinner.</p>
