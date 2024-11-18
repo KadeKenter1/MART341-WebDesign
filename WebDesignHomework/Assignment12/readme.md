@@ -5,11 +5,15 @@
 ## recipe4.html
 I made a 4th recipe, this one being a vegan recipe so I can start to branch out to other pages for their home pages
 
-## 
+## index.html
+I added a lot to the index page, I changed a lot of the spacing elements to add more cohesiveness to the site and add a bit more spacing to help fill up the whole page
+
+## recipe-homepage.html
+I added a lot to the recipe homepage to make it more similar to the index page. I didn't change much of the styling, just mostly the effects and looks
+
 
 # Notes from this week
 ## 6 Required Techniques
-
 I am going to use these 6 elements to enhance my page
 
 1. Border – Define and style borders around elements for emphasis or separation.
@@ -25,13 +29,18 @@ I am going to use these 6 elements to enhance my page
 4. Dropdown – Create a dropdown menu for navigation or content organization.
 - I added a dropdown to the recipe bar on my index page so its another way to go to the recipe homepage
 
+5. Sizing – Control the width and height of elements on the page.
+- I didn't add much for sizing, but I did readjust some of the sizing elements across the website. I did a little bit with the div sections to help stretch out the buttons and add more spread out elements across the site.
 
-Sizing – Control the width and height of elements on the page.
-Overflow – Manage how content is displayed when it exceeds the element’s boundaries.
-Margin – Adjust the space outside an element, creating separation from other elements.
-Display: Inline / Inline-block – Specify how elements are displayed in relation to others.
+6. Margin – Adjust the space outside an element, creating separation from other elements.
+- Once again - I did not ADD anything, I more just worked on the elements and spacing throughout the whole site.
 
 ## Other Notes
+- **FIRST OFF** PLEASE let me know if "fixing up stuff" does not count and I will redo / add stuff for it to count.
+- Everything was pretty self explanatory compared to some of the other weeks, just very implemental additions which are always great!
 
 ## For NEXT WEEK
-1. 
+1. add more recipes!
+2. I didn't get to it this week but I want to add more to the individual pages (slim, vegan, etc) and make them more of a combined feel to the site
+3. add some of the finishing touches since there is still some parts of the website that are not all the same and need to be more synced up
+    **note** this is all is assuming the final project is turning in our combined website
