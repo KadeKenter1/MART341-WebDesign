@@ -2,6 +2,11 @@
 ## Kade Kenter
 
 # Files Worked on This Week
+## recipe pages
+- Since its the last week of class I wanted to fill up the website as much as possible so I fed the recipe pages to chatgpt so it could study them and make more recipes so I could fill up the __recipehomepage.html__ page. I made a few recipes pages to also help fill up the additonal recipe homepages.
+
+## all other pages
+- I didn't have much else I wanted to add to the pages, I only added the media queries to help yield better to mobile viewers
 
 # Notes from this week
 ## Required Stuff
@@ -24,3 +29,4 @@ Dropdown Menu – Add a dropdown menu within the navigation for sub-pages or sec
 ## Other Notes
 
 ## For NEXT WEEK
+not sure what to expect for the next week since its the last week but I feel like this is the best the website has looked the whole semester. Please let me know if theres anything else I can add! I would love for this to be the best shape possible for next week!
