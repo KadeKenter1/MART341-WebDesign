@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eat What You Want</title>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: rgb(245, 245, 245);
+            font-family: 'Gloria Hallelujah', cursive, Arial, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            color: rgb(82, 53, 53);
+        }
+        .navbar {
+            background-color: rgb(82, 53, 53);
+            display: flex;
+            justify-content: flex-end;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .navbar a {
+            margin-left: 20px;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .navbar a:hover {
+            background-color: rgb(120, 80, 80);
+        }
+
+        /* Dropdown Styles */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: rgb(245, 245, 245);
+            min-width: 160px;
+            z-index: 1;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: rgb(82, 53, 53);
+            color: white;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .logo {
+            text-align: center;
+            padding: 30px 0;
+            text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); /* Added shadow */
+        }
+        .logo h1 {
+            font-family: 'Courier', monospace;
+            font-size: 48px;
+            color: black;
+            margin: 0;
+        }
+        .logo h1 span {
+            color: red;
+        }
+        .logo h2 {
+            font-family: 'Courier', monospace;
+            font-size: 22px;
+            margin: 5px 0;
+        }
+        .intro-text {
+            text-align: center;
+            margin: 20px auto;
+            max-width: 800px;
+            padding: 0 20px;
+        }
+        .HomepageDiv2 {
+            background-color: rgb(125, 125, 125);
+            padding: 30px;
+            margin: 30px auto;
+            border-radius: 10px;
+            max-width: 900px;
+            color: white;
+        }
+        .HomepageDiv2 h1 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .button-container {
+            display: flex;
+            justify-content: space-between; /* Space the buttons evenly */
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .button-container button {
+            background-color: rgb(82, 53, 53);
+            color: white;
+            border: 2px solid rgb(68, 40, 40); /* Added border */
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background-color 0.3s, border-color 0.3s;
+            width: 150px; /* Fixed width for consistency */
+        }
+        .button-container button:hover {
+            background-color: rgb(120, 80, 80);
+            border-color: rgb(68, 40, 40); /* Change border color on hover */
+        }
+        .section-title {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 24px;
+            font-style: italic;
+        }
+        .footer-address {
+            text-align: center;
+            margin: 30px 0;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="starterknife.html">Best Chef's Knife</a>
+        <a href="contact.html">Contact</a>
+
+        <div class="dropdown">
+            <a href="recipe-home.html">Recipes</a>
+            <div class="dropdown-content">
+                <a href="vegan-hp.html">Vegan</a>
+                <a href="vegetarian-hp.html">Vegetarian</a>
+                <a href="bulk-hp.html">Bulk</a>
+                <a href="slim-hp.html">Slim</a>
+                <a href="recipe-home.html">ALL</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="logo">
+        <h1>Eat What <span>You</span> Want&#174;</h1>
+        <h2>A Company for Cooks and Cooking</h2>
+    </div>
+
+    <div class="intro-text">
+        <p>Welcome to a place where cooking meets joy and balance. We’re committed to helping you enjoy every bite with top-rated recipes, essential kitchen tools, and expert advice. Whether you're an experienced chef, a home cook, or just starting out, we have something for everyone.</p>
+        <p>Our goal is to inspire you with recipes that cater to all preferences and dietary goals, from plant-based and vegetarian dishes to high-protein and weight-conscious meals. Enjoy tips on efficient cooking, creative flavor pairings, and techniques that make every dish rewarding.</p>
+        <p>Join our community, explore, and rediscover the fun of cooking with delicious, easy-to-follow recipes tailored for you.</p>
+    </div>
+
+    <div class="HomepageDiv2">
+        <h1>What Kind of Recipes do You Want?</h1>
+        <div class="button-container">
+            <button onclick="window.location.href='vegan-hp.html'">VEGAN</button>
+            <button onclick="window.location.href='vegetarian-hp.html'">VEGETARIAN</button>
+            <button onclick="window.location.href='bulk-hp.html'">BULK</button>
+            <button onclick="window.location.href='slim-hp.html'">SLIM</button>
+            <button onclick="window.location.href='recipe-home.html'">ALL</button>
+        </div>
+    </div>
+
+    <div class="section-title">
+        <h1>What Makes Us Different?</h1>
+    </div>
+    <div class="intro-text">
+        <p>Here, we don't want Michelin Chefs to dominate the market. We want to support home cooks, beginners, college students, and athletes. That's why we focus on...</p>
+    </div>
+
+    <div class="section-title">
+        <h1>Want to Learn More and Get Involved?</h1>
+    </div>
+    <div class="intro-text">
+        <p>Find us at:</p>
+    </div>
+    <address class="footer-address">
+        1234 Cookman St.<br>
+        Missoula, NM<br>
+        19502
+    </address>
+
+</body>
+</html>
