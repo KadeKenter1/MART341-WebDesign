@@ -18,7 +18,7 @@ Responsive Design – Ensure the website layout adjusts smoothly across differen
 - The website works great online on all devices. With all the images it can be a little smashed together on mobile but outside of that it works great and the organization stays all put together
 
 Media Queries – Use CSS media queries to make design adjustments at specific screen widths for optimal user experience on all devices.
-- 
+- fixed the media queries on the main recipe page and the other more common pages of the site. Going to add more into the next week but I wanted to test some things out first.
 
 Navigation Menu – Include a clear, user-friendly navigation menu to allow visitors to easily access each page of the site.
 - There is a clean navigation bar at the top of every page on the site. This helps
