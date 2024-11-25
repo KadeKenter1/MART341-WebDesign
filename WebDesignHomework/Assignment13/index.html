@@ -68,7 +68,7 @@
         .logo {
             text-align: center;
             padding: 30px 0;
-            text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); /* Added shadow */
+            text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
         }
         .logo h1 {
             font-family: 'Courier', monospace;
@@ -104,24 +104,24 @@
         }
         .button-container {
             display: flex;
-            justify-content: space-between; /* Space the buttons evenly */
+            justify-content: space-between;
             gap: 10px;
             flex-wrap: wrap;
         }
         .button-container button {
             background-color: rgb(82, 53, 53);
             color: white;
-            border: 2px solid rgb(68, 40, 40); /* Added border */
+            border: 2px solid rgb(68, 40, 40);
             border-radius: 5px;
             padding: 10px 20px;
             cursor: pointer;
             font-size: 18px;
             transition: background-color 0.3s, border-color 0.3s;
-            width: 150px; /* Fixed width for consistency */
+            width: 150px;
         }
         .button-container button:hover {
             background-color: rgb(120, 80, 80);
-            border-color: rgb(68, 40, 40); /* Change border color on hover */
+            border-color: rgb(68, 40, 40);
         }
         .section-title {
             text-align: center;
@@ -133,6 +133,47 @@
             text-align: center;
             margin: 30px 0;
             font-size: 16px;
+        }
+        @media (max-width: 768px) {
+            body {
+                font-size: 14px;
+            }
+            .navbar {
+                flex-wrap: wrap;
+                justify-content: center;
+                padding: 10px;
+            }
+            .navbar a {
+                font-size: 14px;
+                padding: 5px 10px;
+            }
+            .logo h1 {
+                font-size: 32px;
+            }
+            .logo h2 {
+                font-size: 18px;
+            }
+            .intro-text {
+                font-size: 14px;
+                padding: 10px;
+            }
+            .HomepageDiv2 {
+                padding: 20px;
+            }
+            .HomepageDiv2 h1 {
+                font-size: 20px;
+            }
+            .button-container button {
+                font-size: 14px;
+                width: 120px;
+                padding: 8px;
+            }
+            .section-title {
+                font-size: 18px;
+            }
+            .footer-address {
+                font-size: 14px;
+            }
         }
     </style>
 </head>
@@ -160,9 +201,7 @@
     </div>
 
     <div class="intro-text">
-        <p>Welcome to a place where cooking meets joy and balance. We’re committed to helping you enjoy every bite with top-rated recipes, essential kitchen tools, and expert advice. Whether you're an experienced chef, a home cook, or just starting out, we have something for everyone.</p>
-        <p>Our goal is to inspire you with recipes that cater to all preferences and dietary goals, from plant-based and vegetarian dishes to high-protein and weight-conscious meals. Enjoy tips on efficient cooking, creative flavor pairings, and techniques that make every dish rewarding.</p>
-        <p>Join our community, explore, and rediscover the fun of cooking with delicious, easy-to-follow recipes tailored for you.</p>
+        <p>Welcome to a place where cooking meets joy and balance. We’re committed to helping you enjoy every bite with top-rated recipes, essential kitchen tools, and expert advice.</p>
     </div>
 
     <div class="HomepageDiv2">
@@ -182,7 +221,7 @@
     <div class="intro-text">
         <p>Here, we don't want Michelin Chefs to dominate the market. We want to support home cooks, beginners, college students, and athletes. That's why we focus on...</p>
     </div>
-
+    
     <div class="section-title">
         <h1>Want to Learn More and Get Involved?</h1>
     </div>
@@ -197,3 +236,4 @@
 
 </body>
 </html>
+

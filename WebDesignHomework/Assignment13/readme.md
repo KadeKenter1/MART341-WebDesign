@@ -1,46 +1,26 @@
-# Assignment 12
+# Assignment 13
 ## Kade Kenter
 
 # Files Worked on This Week
-## recipe4.html
-I made a 4th recipe, this one being a vegan recipe so I can start to branch out to other pages for their home pages
-
-## index.html
-I added a lot to the index page, I changed a lot of the spacing elements to add more cohesiveness to the site and add a bit more spacing to help fill up the whole page
-
-## recipe-homepage.html
-I added a lot to the recipe homepage to make it more similar to the index page. I didn't change much of the styling, just mostly the effects and looks
-
 
 # Notes from this week
-## 6 Required Techniques
-I am going to use these 6 elements to enhance my page
+## Required Stuff
 
-1. Border – Define and style borders around elements for emphasis or separation.
-- I added a border to the box in my index page where it asks about what type of recipes do they want. This helps it stand out a bit more to the entire page.
-- I also added a border to the buttons as well as the hover effect so that they pop out slightly more
+At Least 4 Pages – Your website should contain a minimum of four distinct pages that align with a cohesive theme.
+- I have 10+ pages across the site. I have some pages that need more work than others but are still made up in some way. I spent a lot of this week tying together all of the final themes together to make sure every page on the site works right.
 
-2. Position – Control the placement of elements with properties like absolute, relative, or fixed.
-- this is very similar to what I have ben doing but I added a second column to my recipe homepage, this helps keep the recipes big enough for all of the sites its used on while also keeps it all well contained
+Responsive Design – Ensure the website layout adjusts smoothly across different screen sizes (desktop, tablet, and mobile).
+- The website works great online on all devices. With all the images it can be a little smashed together on mobile but outside of that it works great and the organization stays all put together
 
-3. Padding – Set the space inside an element, between its content and border.
-- I added padding to the buttons in the recipehomepage and the index page. This helps space out the buttons and maybe on a mobile site could help with not misclicking as frequently
+Media Queries – Use CSS media queries to make design adjustments at specific screen widths for optimal user experience on all devices.
+- 
 
-4. Dropdown – Create a dropdown menu for navigation or content organization.
-- I added a dropdown to the recipe bar on my index page so its another way to go to the recipe homepage
+Navigation Menu – Include a clear, user-friendly navigation menu to allow visitors to easily access each page of the site.
+- There is a clean navigation bar at the top of every page on the site.
 
-5. Sizing – Control the width and height of elements on the page.
-- I didn't add much for sizing, but I did readjust some of the sizing elements across the website. I did a little bit with the div sections to help stretch out the buttons and add more spread out elements across the site.
-
-6. Margin – Adjust the space outside an element, creating separation from other elements.
-- Once again - I did not ADD anything, I more just worked on the elements and spacing throughout the whole site.
+Dropdown Menu – Add a dropdown menu within the navigation for sub-pages or sections, if applicable.
+- The recipes section on the navigation bar of the website takes people to the parts of the website that have specific types or recipes or all of them. There are only 5 sections so there is not much else to add and it is very easy to navigate
 
 ## Other Notes
-- **FIRST OFF** PLEASE let me know if "fixing up stuff" does not count and I will redo / add stuff for it to count.
-- Everything was pretty self explanatory compared to some of the other weeks, just very implemental additions which are always great!
 
 ## For NEXT WEEK
-1. add more recipes!
-2. I didn't get to it this week but I want to add more to the individual pages (slim, vegan, etc) and make them more of a combined feel to the site
-3. add some of the finishing touches since there is still some parts of the website that are not all the same and need to be more synced up
-    **note** this is all is assuming the final project is turning in our combined website
