@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>High Protein Buffalo Mac & Cheese Recipe</title>
 
-    <!-- Link to External Font "Gloria Hallelujah" -->
     <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
 
     <style>
         body {
-            font-family: "Gloria Hallelujah", cursive; /* Apply Gloria Hallelujah font */
+            font-family: "Gloria Hallelujah", cursive;
             background-color: rgb(250, 250, 250);
             margin: 0;
         }
@@ -40,7 +39,7 @@
         .logo {
             text-align: center;
             padding: 20px;
-            font-family: 'Courier', monospace; /* Keep the logo font as Courier */
+            font-family: 'Courier', monospace; 
         }
         .logo h1 {
             font-size: 36pt;
@@ -87,6 +86,49 @@
         .instruction-step input[type="checkbox"] {
             transform: scale(1.2);
             margin-top: 10px;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .navbar a {
+                width: 100%;
+                text-align: center;
+                padding: 15px;
+            }
+            .recipepage, .ingredients, .recipe-instruction {
+                width: 90%;
+            }
+            .logo h1 {
+                font-size: 28pt;
+            }
+            .instructions-section {
+                gap: 10px;
+            }
+            .instruction-step {
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .navbar {
+                font-size: 14px;
+            }
+            .navbar a {
+                padding: 10px;
+            }
+            .logo h1 {
+                font-size: 22pt;
+            }
+            .recipepage img {
+                max-width: 100%;
+            }
+            .instruction-step {
+                padding: 10px;
+            }
         }
     </style>
 </head>
