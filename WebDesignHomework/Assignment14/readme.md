@@ -17,12 +17,13 @@
 - HTML5 Canvas – Include an HTML5 canvas element to display custom graphics or animations.  
     - I was struggling to find somewhere in my page for a canvas element to go but I couldn't find anywhere. So I made a page designated for canvas for the sole purpose of this assignment
     - # NOTE #
-        - ## here is the linkt of find the canvas page ##
-        - ##
+        - ## here is the linkt of find the canvas page
+        - ## https://kadekenter1.github.io/MART341-WebDesign/WebDesignHomework/Assignment14/canvas.html 
 - JavaScript Functionality – Add JavaScript to enhance interactivity or perform dynamic actions on the site.
-    - 
+    - Some of the javascript elements are in the canvas page of the website.
 
 ## Other Notes
-
+ - Struggled finding some of the uses for bootstrap and other things wihtin the website. I think for the final submission (if I can) I want to use the plain code without the boot strap. After adding the code it changed a lot of the look of my website and I was not super happy with it as much as I thought I would be.
 
 ## For NEXT WEEK
+- Get everything all ready for final submission!
