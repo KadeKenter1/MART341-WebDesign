@@ -1,35 +1,52 @@
+/* General Styling */
 body {
     background-color: lightgrey;
     font-family: Arial, sans-serif;
     margin: 0;
 }
+
 h1 {
     color: black;
     text-align: center;
 }
+
 h2 {
     color: rgb(64, 64, 64);
     text-align: center;
 }
+
 p {
     color: rgb(116, 116, 116);
     text-align: center;
 }
+
+/* Navbar */
 .navbar {
     background-color: rgb(150, 150, 150);
     text-align: right;
     padding: 10px;
 }
+
 .navbar a {
     padding: 10px;
     text-decoration: none;
     color: black;
+    transition: color 0.3s, background-color 0.3s;
 }
+
+.navbar a:hover {
+    background-color: rgb(125, 125, 125);
+    color: white;
+}
+
+/* Logo */
 .logo {
     text-align: center;
     padding: 20px;
     font-family: Courier, monospace; /* Change to Courier font */
 }
+
+/* Homepage Divs */
 .HomepageDiv1, .HomepageDiv2 {
     border: 5px outset rgb(178, 178, 178);
     background-color: rgb(178, 178, 178);
@@ -39,21 +56,50 @@ p {
     box-sizing: border-box;
     text-align: center;
 }
+
 .HomepageDiv2 {
     background-color: rgb(125, 125, 125);
     border-color: rgb(125, 125, 125);
 }
+
+/* Recipe Container */
 .recipe-container {
     display: flex; /* Use flexbox to align children in a row */
     justify-content: center; /* Center the items */
     flex-wrap: wrap; /* Allow wrapping to next line on smaller screens */
+    gap: 20px; /* Clean spacing between recipe templates */
 }
+
 .RecipeTemplate {
     background-color: rgb(255, 255, 255);
     border: 5px outset rgb(178, 178, 178);
     color: black;
     width: 30%; /* Adjust width as needed */
-    margin: 10px; /* Margin between recipe templates */
     padding: 20px; /* Padding inside the recipe template */
     box-sizing: border-box; /* Include padding and border in element's total width/height */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Hover Effect for Recipe Templates */
+.RecipeTemplate:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .HomepageDiv1, .HomepageDiv2 {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .RecipeTemplate {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .RecipeTemplate {
+        width: 100%;
+    }
 }
