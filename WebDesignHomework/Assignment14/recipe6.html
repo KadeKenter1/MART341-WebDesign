@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegan Lentil Soup</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: "Gloria Hallelujah", cursive;
+            background-color: rgb(250, 250, 250);
+            margin: 0;
+        }
+        h1, h2 {
+            color: black;
+            text-align: center;
+        }
+        p {
+            color: rgb(144, 107, 107);
+            text-align: center;
+        }
+        .navbar {
+            background-color: rgb(82, 53, 53);
+            display: flex;
+            justify-content: flex-end;
+            padding: 10px;
+        }
+        .navbar a {
+            padding: 10px 20px;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            transition: background-color 0.3s;
+        }
+        .navbar a:hover {
+            background-color: rgb(120, 120, 120);
+        }
+        .logo {
+            text-align: center;
+            padding: 20px;
+            font-family: 'Courier', monospace; 
+        }
+        .logo h1 {
+            font-size: 36pt;
+            color: black;
+        }
+        .recipepage, .ingredients, .recipe-instruction {
+            border: 5px outset rgb(178, 178, 178);
+            background-color: rgb(178, 178, 178);
+            text-align: center;
+            margin: 20px auto;
+            padding: 15px;
+            width: 80%;
+            box-sizing: border-box;
+        }
+        .recipepage img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            border-radius: 10px;
+            margin: 15px auto;
+        }
+        .ingredients ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .instructions-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+        .instruction-step {
+            border: 1px solid rgb(116, 116, 116);
+            padding: 15px;
+            width: 100%;
+            max-width: 600px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .instruction-step:hover {
+            transform: translateY(-5px);
+        }
+        .instruction-step input[type="checkbox"] {
+            transform: scale(1.2);
+            margin-top: 10px;
+        }
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .navbar a {
+                width: 100%;
+                text-align: center;
+                padding: 15px;
+            }
+            .recipepage, .ingredients, .recipe-instruction {
+                width: 90%;
+            }
+            .logo h1 {
+                font-size: 28pt;
+            }
+            .instructions-section {
+                gap: 10px;
+            }
+            .instruction-step {
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .navbar {
+                font-size: 14px;
+            }
+            .navbar a {
+                padding: 10px;
+            }
+            .logo h1 {
+                font-size: 22pt;
+            }
+            .recipepage img {
+                max-width: 100%;
+            }
+            .instruction-step {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="starterknife.html">Best Chef's Knife</a>
+        <a href="contact.html">Contact</a>
+        <a href="recipe-home.html">Recipes</a>
+    </div>
+
+    <div class="logo">
+        <h1>Eat What <span style="color:red;">You</span> Want&#174;</h1>
+    </div>
+
+    <div class="recipepage">
+        <img src="./images/Lentilsoup1.jpg" alt="Vegan Lentil Soup">
+        <h1>Vegan Lentil Soup</h1>
+        <h2>A hearty and nourishing vegan soup for any season!</h2>
+    </div>
+
+    <div class="ingredients">
+        <h1 style="letter-spacing: 5px;"><i>Ingredients Needed</i></h1>
+        <ul>
+            <li>1 cup dried lentils (green or brown)</li>
+            <li>1 tablespoon olive oil</li>
+            <li>1 medium onion, diced</li>
+            <li>2 cloves garlic, minced</li>
+            <li>1 carrot, diced</li>
+            <li>1 celery stalk, diced</li>
+            <li>1 can diced tomatoes (14.5 oz)</li>
+            <li>4 cups vegetable broth</li>
+            <li>1 teaspoon cumin</li>
+            <li>1 teaspoon smoked paprika</li>
+            <li>Salt and pepper to taste</li>
+            <li>2 cups spinach (optional)</li>
+        </ul>
+    </div>
+
+    <div class="recipe-instruction">
+        <h1 style="letter-spacing: 5px;">Instructions</h1>
+        <div class="instructions-section">
+            <div class="instruction-step">
+                <h2>Step 1</h2>
+                <h3>Prepare Your Ingredients</h3>
+                <p>Rinse the lentils and chop all the vegetables.</p>
+                <input type="checkbox">
+            </div>
+
+            <div class="instruction-step">
+                <h2>Step 2</h2>
+                <h3>Sauté the Vegetables</h3>
+                <p>In a large pot, heat olive oil over medium heat. Add the onion, garlic, carrot, and celery, and sauté for about 5 minutes, until softened.</p>
+                <input type="checkbox">
+            </div>
+
+            <div class="instruction-step">
+                <h2>Step 3</h2>
+                <h3>Add the Broth and Spices</h3>
+                <p>Add the vegetable broth, tomatoes, cumin, smoked paprika, salt, and pepper to the pot. Stir well.</p>
+                <input type="checkbox">
+            </div>
+
+            <div class="instruction-step">
+                <h2>Step 4</h2>
+                <h3>Simmer the Soup</h3>
+                <p>Bring the soup to a boil, then reduce the heat and simmer for 25-30 minutes until the lentils are tender.</p>
+                <input type="checkbox">
+            </div>
+
+            <div class="instruction-step">
+                <h2>Step 5</h2>
+                <h3>Add the Spinach</h3>
+                <p>Stir in the spinach and let it wilt in the soup for another 5 minutes.</p>
+                <input type="checkbox">
+            </div>
+
+            <div class="instruction-step">
+                <h2>Step 6</h2>
+                <h3>Serve and Enjoy!</h3>
+                <p>Serve hot and enjoy your warm, hearty vegan soup!</p>
+                <input type="checkbox">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
