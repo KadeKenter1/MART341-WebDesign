@@ -34,14 +34,24 @@
         nav ul {
             list-style: none;
             padding: 0;
+            text-align: center;
         }
         nav ul li {
             display: inline;
             margin: 0 1rem;
         }
         nav ul li a {
-            color: #fff;
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff6cda;
+            color: white;
             text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        nav ul li a:hover {
+            background-color: #ff97ff;
         }
         div {
             background: #cbcbcb;
@@ -58,7 +68,6 @@
             border-radius: 8px;
             margin-top: 1rem;
         }
-
     </style>
 </head>
 <body>
