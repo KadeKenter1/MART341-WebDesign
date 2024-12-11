@@ -11,7 +11,6 @@
             padding: 0;
             line-height: 1.6;
             background-color: #a8a8a8;
-
         }
         header {
             background: #ff97ff;
@@ -20,8 +19,8 @@
             text-align: center;
         }
         main {
-            padding: 2rem;
-            text-align: left;
+            padding: 1rem;
+            text-align: center;
         }
         footer {
             background: #ff97ff;
@@ -35,14 +34,41 @@
         nav ul {
             list-style: none;
             padding: 0;
+            text-align: center;
         }
         nav ul li {
             display: inline;
             margin: 0 1rem;
         }
         nav ul li a {
-            color: #fff;
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff6cda;
+            color: white;
             text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            border: 2px solid #ff56d5; /* Adds border around the button */
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+        }
+        nav ul li a:hover {
+            background-color: #ff53ff;
+            border-color: #ff56d5; /* Change border color on hover */
+        }
+        div {
+            background: #cbcbcb;
+            border: 1px solid #ff6cda;
+            padding: 1rem;
+            margin: 1rem auto;
+            max-width: 600px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            width: 65%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 1rem;
         }
         .instruction-list {
             background: #cbcbcb;
