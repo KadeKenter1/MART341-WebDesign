@@ -1,25 +1,19 @@
 # Week 9
 ## Katie Illi
 
-# note
-I remade this website for the assignments i turned in late, there was a lot of clutter in my previous sites and wanted to start from scratch with a cleaner look
-
 # Required Items
-- Three or more pages.
-    - I added 4 pages I will go onto in each week and as i get ready to turn this in for my final
-    - Pages I have done for this week:
-        - index.html
-        - contact.html
-        - howto.html
-        - about.html
-- A complete set of instructions or a how-to guide.
-    - I added a page about how to plan and have a great sisterhood event! there aren't many things to make lists about in a sorority so this is what I think would be the best
-- Use of inline and embedded styles.
-    - have a style sheet attached and all elements are seperated well
-- Images (preferably your own, but sourced, fair-use images are also allowed).
-    - I have an image of our chapter on the front page
-- One or more embedded media (video, audio, Google Maps, etc).
-    - I have the google map link to our house on the contact page (contact.html)
-- Structural and semantic markup, including a well-organized block-style page structure
-    - very organized page structure
-- Clean, legible coding
+- Create a page with an external CSS style sheet
+    - I have had an external style sheet
+- Use at least 1 class selector
+    - for my button on the sisterhood page I made a class for the button that brings it to the sisterhood planning sheet from last weeks assignment.
+- Use at least 1 ID selector
+    - I have a lot of different ID's across the pages styling for multiple different uses. Some of them are colors and some of them are related to functionality of the website like text alignment.
+
+# Other elements
+- Different background colors
+    - Changed the background colros to a more chalky white so it helps the brighter pink pop out
+- Borders
+    - I added borders and buttons to the navigation bar at the top of the page
+- And more (feel free to experiment!)
+    - Added hover effects to the buttons to slightly change the color on the button to make it pop out more.
+    - Added a stroke to the title on the index page to help it look more modern and flashy! Also very pink which I love! 
