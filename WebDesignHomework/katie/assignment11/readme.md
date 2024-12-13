@@ -1,19 +1,21 @@
-# Week 10
+# Week 11
 ## Katie Illi
 
 # Required Items
 - Create a page with an external CSS style sheet
-    - I have had an external style sheet
-- Use at least 1 class selector
-    - for my button on the sisterhood page I made a class for the button that brings it to the sisterhood planning sheet from last weeks assignment.
-- Use at least 1 ID selector
-    - I have a lot of different ID's across the pages styling for multiple different uses. Some of them are colors and some of them are related to functionality of the website like text alignment.
+    - has been added for weeks
+- Add hover effects to enhance interactivity
+    - outside of the current hover effects on the navigation buttons I added _____
+- Use an external font that is self-hosted
+    - for the self hosted font I used times new roman for all the buttons and body font! I think it is classic, but also adds a more fomal appeal to the websites homepage and other parts!
+- Use an external font from a font library
+    - for the external font I used the Caprasimo font from Google. I think it has a playful yet modern look to it. I like it alongside the times new roman
 
 # Other elements
-- Different background colors
-    - Changed the background colros to a more chalky white so it helps the brighter pink pop out
-- Borders
-    - I added borders and buttons to the navigation bar at the top of the page
-- And more (feel free to experiment!)
-    - Added hover effects to the buttons to slightly change the color on the button to make it pop out more.
-    - Added a stroke to the title on the index page to help it look more modern and flashy! Also very pink which I love! 
+- Experiment with different font styles
+- Adjust font-weight for emphasis
+    - Made headers of each page **bold** to help it stick out more on the page
+- Use text-decoration to add or remove underlines, lines through text, etc.
+- Adjust spacing (letter-spacing, line-height, or word spacing) for readability
+- Align text or elements for a clean layout
+- Try pseudo-elements and pseudo-classes for additional styling effects
