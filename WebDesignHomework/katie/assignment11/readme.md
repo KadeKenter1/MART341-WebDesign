@@ -18,4 +18,5 @@
 - Use text-decoration to add or remove underlines, lines through text, etc.
 - Adjust spacing (letter-spacing, line-height, or word spacing) for readability
 - Align text or elements for a clean layout
+    - I made the font of the alpha phi header larger since its the title of the page
 - Try pseudo-elements and pseudo-classes for additional styling effects
