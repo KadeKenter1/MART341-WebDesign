@@ -109,6 +109,47 @@
             font-size: 18px;
             margin-bottom: 0.5rem;
         }
+
+        /* Media Queries for responsiveness */
+        @media (max-width: 1200px) {
+            h1 {
+                font-size: 4rem; /* Adjust size for medium screens */
+            }
+            .instruction-list {
+                max-width: 95%; /* Allow for wider content */
+            }
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem; /* Smaller header size for smaller screens */
+            }
+            nav ul li {
+                display: block; /* Stack nav items vertically */
+                margin-bottom: 1rem;
+            }
+            .instruction-list {
+                max-width: 100%; /* Full width for smaller devices */
+            }
+            img {
+                width: 80%; /* Make image a bit larger for mobile devices */
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 2rem; /* Further reduce header size for mobile */
+            }
+            .instruction-list h3 {
+                font-size: 18px; /* Smaller heading for mobile */
+            }
+            .instruction-list div strong {
+                font-size: 16px; /* Adjust text size for small devices */
+            }
+            nav ul li {
+                margin: 0.5rem 0; /* More compact spacing for mobile */
+            }
+        }
     </style>
 </head>
 <body>

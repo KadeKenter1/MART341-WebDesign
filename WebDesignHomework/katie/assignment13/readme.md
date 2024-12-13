@@ -1,17 +1,18 @@
-# Week 12
+# Week 13
 ## Katie Illi
 
-# 6 Required Items
-- Sizing – Control the width and height of elements on the page.
-    - Not sure if it counts becvause I did it last week - but I made the title header 500% larger to make it stick out more
-- Border – Define and style borders around elements for emphasis or separation.
-    - I changed the border and inside color of the buttons in the hover effect - I found previously that it made the button disappear since the hover shade was the same as the background, I also made the stroke a bit thicker and a darker shade
-- Padding – Set the space inside an element, between its content and border.
-    - I made the information in the history tab into columns instead of rows stacked on top of each other. Changing the padding around so they comfortable fit the page
-    - I also added comfortable padding to all of the images I added on the history page
-- Display: Inline / Inline-block – Specify how elements are displayed in relation to others.
-    - The columns with the history and information on Alpha Phi are all exactly centered with one another and spaced evenly from each edge of the website
-- Position – Control the placement of elements with properties like absolute, relative, or fixed.
-    - I made the footer relative so it did not move and was equal to the height of the page and making sure it was evenly spaced from the bottom of the main section
-
-    
+# Required Items
+- At Least 4 Pages – Your website should contain a minimum of four distinct pages that align with a cohesive theme.
+    - Page 1 - index.html
+    - Page 2 - history.html
+    - Page 3 - contact.html
+    - Page 4 - about.html
+    - Page 5 - howto.html
+- Responsive Design – Ensure the website layout adjusts smoothly across different screen sizes (desktop, tablet, and mobile).
+    - After testing the website out on multiple devices it works very well! it is not a crowded website so there is not much that can be an issue with it
+- Media Queries – Use CSS media queries to make design adjustments at specific screen widths for optimal user experience on all devices.
+    - I added media queries to each page for mobile use
+- Navigation Menu – Include a clear, user-friendly navigation menu to allow visitors to easily access each page of the site.
+    - at the top of each page I have a small naviagtion link - there is not many pages to go to and I did not find having a dropdown box necessary for this
+- Dropdown Menu – Add a dropdown menu within the navigation for sub-pages or sections, if applicable.
+    - Did not find a dropdown box appplicable with the size of the website

@@ -29,7 +29,6 @@
                 2px -2px 0px #ff6cda,
                 -2px 2px 0px #ff6cda;
             font-size: 500%;
-
         }
         main h1, main h2 {
             font-family: 'Caprasimo', cursive;
@@ -101,6 +100,53 @@
         }
         .button-container a:hover {
             background: #e066e0;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media screen and (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            header {
+                padding: 0.5rem;
+            }
+            nav ul li {
+                display: block;
+                margin-bottom: 1rem;
+            }
+            img {
+                width: 80%;
+            }
+            footer {
+                padding: 1rem;
+            }
+            .button-container a {
+                padding: 0.5rem;
+                font-size: 1rem;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+            main h1, main h2 {
+                font-size: 1.5rem;
+            }
+            nav ul {
+                padding: 0;
+            }
+            nav ul li {
+                display: block;
+                margin-bottom: 1rem;
+            }
+            img {
+                width: 90%;
+            }
+            .button-container a {
+                padding: 0.5rem 1rem;
+                font-size: 1rem;
+            }
         }
     </style>
 </head>
