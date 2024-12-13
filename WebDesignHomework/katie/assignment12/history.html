@@ -75,14 +75,20 @@
             background-color: #ff53ff;
             border-color: #ff56d5;
         }
-        div {
+        .content-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 1rem;
+        }
+        .content-wrapper div {
             background: #cbcbcb;
             border: 1px solid #ff6cda;
             padding: 1rem;
-            margin: 1rem auto;
-            max-width: 600px;
+            max-width: 30%;
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: left;
         }
         img {
             width: 65%;
@@ -95,7 +101,7 @@
 <body>
     <header>
         <h1>❦ Alpha Phi | Chi Chapter ❦</h1>
-        <h1>History</h1>
+        <h2>History</h2>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -105,19 +111,21 @@
         </nav>
     </header>
     <main>
-        <div>
-            <h2>History of Alpha Phi at the University of Montana</h2>
-            <p>The Chi Chapter of Alpha Phi at the University of Montana was established in 1918, making it one of the oldest chapters in the Alpha Phi network. The chapter has consistently upheld the values of sisterhood, leadership, and academic excellence while fostering a strong community of women who support one another and strive to make a positive impact on campus and beyond.</p>
-        </div>
+        <div class="content-wrapper">
+            <div>
+                <h2>History of Alpha Phi at the University of Montana</h2>
+                <p>The Chi Chapter of Alpha Phi at the University of Montana was established in 1918, making it one of the oldest chapters in the Alpha Phi network. The chapter has consistently upheld the values of sisterhood, leadership, and academic excellence while fostering a strong community of women who support one another and strive to make a positive impact on campus and beyond.</p>
+            </div>
 
-        <div>
-            <h2>Alpha Phi’s Core Values: Sisterhood, Leadership, and Service</h2>
-            <p>The Chi Chapter is committed to promoting values such as leadership, intellectual growth, and a sense of belonging through sisterhood. Members of Alpha Phi are encouraged to develop leadership skills, engage in meaningful service opportunities, and form lifelong friendships that extend well beyond their time at the University of Montana.</p>
-        </div>
+            <div>
+                <h2>Alpha Phi’s Core Values: Sisterhood, Leadership, and Service</h2>
+                <p>The Chi Chapter is committed to promoting values such as leadership, intellectual growth, and a sense of belonging through sisterhood. Members of Alpha Phi are encouraged to develop leadership skills, engage in meaningful service opportunities, and form lifelong friendships that extend well beyond their time at the University of Montana.</p>
+            </div>
 
-        <div>
-            <h2>Philanthropy and Heart Health</h2>
-            <p>As part of the larger Alpha Phi network, the Chi Chapter participates in the sorority’s national philanthropic focus on women’s heart health. The chapter raises awareness and funds to support research and education about heart disease, empowering women to take charge of their health and well-being.</p>
+            <div>
+                <h2>Philanthropy and Heart Health</h2>
+                <p>As part of the larger Alpha Phi network, the Chi Chapter participates in the sorority’s national philanthropic focus on women’s heart health. The chapter raises awareness and funds to support research and education about heart disease, empowering women to take charge of their health and well-being.</p>
+            </div>
         </div>
     </main>
     <footer>

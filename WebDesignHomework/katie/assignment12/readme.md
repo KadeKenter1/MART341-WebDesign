@@ -1,20 +1,14 @@
-# Week 11
+# Week 12
 ## Katie Illi
 
 # Required Items
-- Create a page with an external CSS style sheet
-    - has been added for weeks
-- Add hover effects to enhance interactivity
-    - outside of the current hover effects on the navigation buttons I added _____
-- Use an external font that is self-hosted
-    - for the self hosted font I used times new roman for all the buttons and body font! I think it is classic, but also adds a more fomal appeal to the websites homepage and other parts!
-- Use an external font from a font library
-    - for the external font I used the Caprasimo font from Google. I think it has a playful yet modern look to it. I like it alongside the times new roman
-
-# Other elements
-- Adjust font-weight for emphasis
-    - Made headers of each page **bold** to help it stick out more on the page
-- Use text-decoration to add or remove underlines, lines through text, etc.
-    - Added strokes to all the *Caprasimo* text across the website to help it pop out more!
-- Align text or elements for a clean layout
-    - I made the font of the alpha phi header ***600%*** larger since its the title of the page
+- Sizing – Control the width and height of elements on the page.
+    - Not sure if it counts becvause I did it last week - but I made the title header 500% larger to make it stick out more
+- Overflow – Manage how content is displayed when it exceeds the element’s boundaries.
+- Border – Define and style borders around elements for emphasis or separation.
+- Margin – Adjust the space outside an element, creating separation from other elements.
+- Padding – Set the space inside an element, between its content and border.
+    - I made the information in the history tab into columns instead of rows stacked on top of each other. Changing the padding around so they comfortable fit the page
+- Display: Inline / Inline-block – Specify how elements are displayed in relation to others.
+- Dropdown – Create a dropdown menu for navigation or content organization.
+- Position – Control the placement of elements with properties like absolute, relative, or fixed.
