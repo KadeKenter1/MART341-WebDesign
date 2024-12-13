@@ -12,11 +12,9 @@
     - for the external font I used the Caprasimo font from Google. I think it has a playful yet modern look to it. I like it alongside the times new roman
 
 # Other elements
-- Experiment with different font styles
 - Adjust font-weight for emphasis
     - Made headers of each page **bold** to help it stick out more on the page
 - Use text-decoration to add or remove underlines, lines through text, etc.
-- Adjust spacing (letter-spacing, line-height, or word spacing) for readability
+    - Added strokes to all the *Caprasimo* text across the website to help it pop out more!
 - Align text or elements for a clean layout
-    - I made the font of the alpha phi header larger since its the title of the page
-- Try pseudo-elements and pseudo-classes for additional styling effects
+    - I made the font of the alpha phi header ***600%*** larger since its the title of the page
