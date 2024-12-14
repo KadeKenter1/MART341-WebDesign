@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vegan Recipes</title>
+    <title>Recipe Homepage</title>
     <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
     <style>
         body {
@@ -155,36 +155,49 @@
 </head>
 <body>
 
-<head>
-    <body>
-
-    
     <div class="navbar">
         <a href="index.html">Home</a>
         <a href="starterknife.html">Best Chef's Knife</a>
         <a href="contact.html">Contact</a>
+        <a href="recipe-home.html">Recipes</a>
     </div>
 
     <div class="logo">
         <h1>Eat What <span style="color:red;">You</span> Want&#174;</h1>
+        <h2>A Company for Cooks and Cooking</h2>
+    </div>
+
+    <div class="HomepageDiv1">
+        <h1>Our Recipes</h1>
+        <h2>Here are our amazing recipes!</h2>
+    </div>
+
+    <div class="HomepageDiv2">
+        <h1>What Kind of Recipes do You Want?</h1>
+        <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; font-size: 150px;">
+            <button onclick="window.location.href='vegan-hp.html'">VEGAN</button>
+            <button onclick="window.location.href='vegetarian-hp.html'">VEGETARIAN</button>
+            <button onclick="window.location.href='bulk-hp.html'">BULK</button>
+        </div>
+    </div>
+        <div class="RecipeTemplate">
+            <img src="./images/veganchickpeacurry.jpg" alt="Vegan Chickpea Curry">
+            <h2>Vegan Chickpea Curry</h2>
+            <p>A hearty and flavorful vegan dish that's perfect for any dinner.</p>
+            <button onclick="window.location.href='recipe4.html'">Go to Recipe</button>
+            <p><span style="color:black; font-weight:bold;">- VEGAN -</span></p>
+        </div>
+
+        <div class="RecipeTemplate">
+            <img src="./images/Lentilsoup1.jpg" alt="Vegetarian Pesto Pasta">
+            <h2>Vegan Lentil Soup</h2>
+            <p>A hearty and nourishing vegan soup for any season!</p>
+            <button onclick="window.location.href='recipe4.html'">Go to Recipe</button>
+            <p><span style="color:black; font-weight:bold;">- VEGAN -</span></p>
+        </div>
     </div>
 
 
-    <div class="RecipeTemplate">
-        <img src="./images/Lentilsoup1.jpg" alt="Vegetarian Pesto Pasta">
-        <h2>Vegan Lentil Soup</h2>
-        <p>A hearty and nourishing vegan soup for any season!</p>
-        <button onclick="window.location.href='recipe4.html'">Go to Recipe</button>
-        <p><span style="color:black; font-weight:bold;">- VEGAN -</span></p>
-    </div>
-
-    <div class="RecipeTemplate">
-        <img src="./images/veganchickpeacurry.jpg" alt="Vegan Chickpea Curry">
-        <h2>Vegan Chickpea Curry</h2>
-        <p>A hearty and flavorful vegan dish that's perfect for any dinner.</p>
-        <button onclick="window.location.href='recipe4.html'">Go to Recipe</button>
-        <p><span style="color:black; font-weight:bold;">- VEGAN -</span></p>
-    </div>
 
 </body>
-</head>
+</html>
