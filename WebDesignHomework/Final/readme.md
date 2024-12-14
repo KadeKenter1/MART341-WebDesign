@@ -10,3 +10,6 @@ I also cleaned up a lot of the different code from different weeks. One of the b
 
 Fixed up a lot of the small things that made the website slightly different on each page as well
 
+I feel like this website came together very well - I want to try and add more throughout the future or build more websites to get better at this!
+
+Thank you so much for an amazing semester even with all of my troubles at the start!
