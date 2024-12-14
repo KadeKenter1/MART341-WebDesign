@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegetarian Recipes Homepage</title>
+    <style>
+        body {
+            background-color: lightgrey;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        h1 {
+            color: black;
+            text-align: center;
+        }
+        h2 {
+            color: rgb(64, 64, 64);
+            text-align: center;
+        }
+        p {
+            color: rgb(116, 116, 116);
+            text-align: center;
+        }
+        .navbar {
+            background-color: rgb(150, 150, 150);
+            text-align: right;
+            padding: 10px;
+        }
+        .navbar a {
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+        }
+        .logo {
+            text-align: center;
+            padding: 20px;
+            font-family: Courier, monospace; /* Change to Courier font */
+        }
+        .HomepageDiv1, .HomepageDiv2 {
+            border: 5px outset rgb(178, 178, 178);
+            background-color: rgb(178, 178, 178);
+            margin: 20px auto;
+            padding: 25px;
+            width: 80%; /* Responsive width */
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .HomepageDiv2 {
+            background-color: rgb(125, 125, 125);
+            border-color: rgb(125, 125, 125);
+        }
+        .recipe-container {
+            display: flex; /* Use flexbox to align children in a row */
+            justify-content: center; /* Center the items */
+            flex-wrap: wrap; /* Allow wrapping to next line on smaller screens */
+        }
+        .RecipeTemplate {
+            background-color: rgb(255, 255, 255);
+            border: 5px outset rgb(178, 178, 178);
+            color: black;
+            width: 30%; /* Adjust width as needed */
+            margin: 10px; /* Margin between recipe templates */
+            padding: 20px; /* Padding inside the recipe template */
+            box-sizing: border-box; /* Include padding and border in element's total width/height */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="starterknife.html">Best Chef's Knife</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="logo">
+        <h1>Eat What <span style="color:red;">You</span> Want&#174;</h1>
+    </div>
+
+    <div class="RecipeTemplate">
+        <img src="./images/vegetatianpasta.jpg" alt="Vegetarian Pasta">
+        <h2>Vegetarian Pasta</h2>
+        <p>A quick and easy vegetarian recipe perfect for any weeknight dinner.</p>
+        <button onclick="window.location.href='recipe3.html'">Go to Recipe</button>
+        <p><span style="color:black; font-weight:bold;">- VEGETARIAN -</span></p>
+    </div>
